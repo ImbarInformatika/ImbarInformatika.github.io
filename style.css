@@ -1,0 +1,7 @@
+/* Add your CSS styles here */
+.carousel-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
