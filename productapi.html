@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TUgas 8</title>
+</head>
+
+<body>
+    <form id="formMahasiswa" action="#" method="post">
+        <h2>Isian Data Mahasiswa</h2>
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="nim">Nim</label>
+        <input type="text" id="nim" name="nim" required><br><br>
+
+        <label for="nama">Jurusan</label>
+        <input type="text" id="jurusan" name="jurusan" required><br><br>
+
+        <label for="angkatan">Angkatan</label>
+        <input type="text" id="angkatan" name="angkatan" required><br><br>
+
+        <button type="submit">Simpan</button>
+    </form>
+
+    <table id="dataMahasiswa">
+        <tr>
+            <td>Nama</td>
+            <td>Nim</td>
+            <td>Jurusan</td>
+            <td>Angkatan</td>
+        </tr>
+    </table>
+
+    <script src="productapi.js"></script>
+</body>
+
+</html>
